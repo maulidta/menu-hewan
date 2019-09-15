@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">aplikasi speech to text ku</string>
+
+    <string name="judul_1">Vertebrate Animals </string>
+    <string name="judul_2">Mammals</string>
+    <string name="judul_3">Birds</string>
+
+    <string name="desk_1">
+        Animals are living things.
+        Like plants, animals need food and waterto tlive. Unlike plants, which make their own food,
+        animals feed themselves by eating plants or other animals</string>
+    <string name="desk_2"> chicken</string>
+    <string name="desk_3"> crocodile</string>
+
+
+</resources>
