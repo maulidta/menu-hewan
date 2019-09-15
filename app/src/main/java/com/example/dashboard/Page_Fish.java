@@ -14,7 +14,7 @@ public class Page_Fish extends Fragment {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            View PageFsh= super.onCreateView(inflater, container, false);
+            View PageFsh= super.onCreateView(inflater, container, savedInstanceState);
             return PageFsh;
         }
     }

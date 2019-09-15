@@ -14,7 +14,7 @@ public class Page_Mammals extends Fragment {
 
     @Override
     public View onCreateView( LayoutInflater inflater, ViewGroup container,  Bundle savedInstanceState) {
-        View PageMmls = super.onCreateView(inflater, container, false);
+        View PageMmls = super.onCreateView(inflater, container, savedInstanceState);
         return PageMmls;
     }
 }

@@ -14,7 +14,7 @@ public class Page_Birds extends Fragment {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            View PageBrd = super.onCreateView(inflater, container, false);
+            View PageBrd = super.onCreateView(inflater, container, savedInstanceState);
             return PageBrd;
         }
     }

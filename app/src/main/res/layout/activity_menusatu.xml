@@ -12,15 +12,30 @@
     android:background="@drawable/bg">
 
 
+
+
     <Button
-        android:id="@+id/changetextbtn"
-        android:layout_width="wrap_content"
+        android:id="@+id/changetextbtnEng"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/changetextbtnInd"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="335dp"
+        android:layout_marginTop="351dp"
+        android:layout_marginLeft="20dp"
         android:background="@color/colorAccent"
-        android:text="Translate to Bahasa Indonesia"
+        android:text="Translate to English"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/changetextbtnInd"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="351dp"
+        android:background="@color/colorAccent"
+        android:text="Translate to Indonesia"
         android:textSize="15sp"
         android:textStyle="bold" />
 
