@@ -9,6 +9,12 @@ yang belum di terapkan di aplikasi:
   jadi di dalam setiap menu di buat button yang bisa di slide
   contoh hewannya di pakai slide sekalian gambar2 hewannya. terus di dalemnya ada button 'back' untuk kembali ke menu kategori hewan vertebrata/invertebrata sebelumnya
 4. quiz/exercise:
+- quiz dibagi 2 : 1. menanyakan hewan apa
+                  2. kategori Vertebrate & Invertebrate :
+                   -mis. milih vertebrate nanti ada gambar buaya, nanti ada pilihan ganda termasuk hewan apakah hewan ini? 
+                   a.mammals
+                   b.bird
+                   c.reptiles
 - cuma pake skor aja gausah gembok2 an, terus cuma pake button ndak usah tab
 - tampilan jawaban benar beserta jumlah skor
 
