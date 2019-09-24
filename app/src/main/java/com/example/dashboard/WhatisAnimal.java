@@ -1,18 +1,17 @@
 package com.example.dashboard;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 public class WhatisAnimal extends AppCompatActivity {
     ViewPager viewPager;
@@ -24,14 +23,14 @@ public class WhatisAnimal extends AppCompatActivity {
         setContentView(R.layout.activity_whatis_animal);
 
         /*sekarang pasang adapter ke viewpager*/
-        setupViewPager();
+       // setupViewPager();
     }
 
-    private void setupViewPager() {
+   /* private void setupViewPager() {
         adapter = new Adapter(this);
         viewPager = findViewById(R.id.viewpager);
         viewPager.setAdapter(adapter);
-    }
+    }*/
 
     private class Adapter extends PagerAdapter {
         Context context;

@@ -1,4 +1,4 @@
-package com.example.dashboard;
+package com.example.dashboard.activity;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ProgressBar;
+
+import com.example.dashboard.R;
 
 public class SplashActivity extends Activity {
     private static final int SPLASH_TIME = 3 * 1000;//set waktu 3 detik

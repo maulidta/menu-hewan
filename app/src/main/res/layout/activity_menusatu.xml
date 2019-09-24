@@ -8,34 +8,30 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".menusatu"
+    tools:context=".activity.menusatu"
     android:background="@drawable/bg">
-
-
 
 
     <Button
         android:id="@+id/changetextbtnEng"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/changetextbtnInd"
+        android:layout_width="250dp"
+        android:layout_height="74dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="351dp"
-        android:layout_marginLeft="20dp"
-        android:background="@color/colorAccent"
-        android:text="Translate to English"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="390dp"
+        android:layout_toRightOf="@+id/changetextbtnInd"
+        android:background="@drawable/btn_bhseng"
         android:textSize="15sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/changetextbtnInd"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:layout_height="73dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="351dp"
-        android:background="@color/colorAccent"
-        android:text="Translate to Indonesia"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/btn_bhsind"
         android:textSize="15sp"
         android:textStyle="bold" />
 
@@ -44,20 +40,48 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
+        android:drawableTop="@drawable/whatisanimalstitle"
         android:gravity="center"
-        android:text="What is Animals? "
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
         android:id="@+id/txtwiatochange"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="136dp"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="Animals are living things.Like plants, animals need food and waterto tlive. Unlike plants, which make their own food, animals feed themselves by eating plants or other animals"
+        android:background="@drawable/back"
+        android:text="Animals are living things.
+        Like plants, animals need food and water to live.
+        Unlike plants, which make their own food, animals feed themselves by eating plants or other animals"
+        android:textStyle="bold"
+        android:textSize="25sp"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/homemenuwia"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mainmenu"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/nextbtn1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="520dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/next_btn"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
 
 
 </RelativeLayout>

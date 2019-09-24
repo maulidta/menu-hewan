@@ -1,105 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/bg">
 
-    <TableLayout
-        android:id="@+id/tableLayout1"
-        android:layout_width="383dp"
-        android:layout_height="403dp"
-        android:layout_marginTop="180dp"
-        android:paddingTop="5dp"
-        android:shrinkColumns="*"
-        android:stretchColumns="*">
-
-        <TableRow
-            android:id="@+id/tablerowpertama"
-            android:layout_width="match_parent"
-            android:layout_height="245dp"
-            android:gravity="center_horizontal"
-            android:paddingBottom="5dp">
-
-            <Button
-                android:id="@+id/btn_whatisanimals"
-                android:layout_width="250dp"
-                android:layout_height="127dp"
-                android:layout_below="@+id/imageView1"
-                android:background="@android:color/transparent"
-                android:drawableTop="@drawable/button1"
-                android:gravity="center|center_horizontal"
-                android:onClick="playSound" />
-        </TableRow>
-
-
-        <TableRow
-            android:id="@+id/tablerowkedua"
-            android:layout_width="150dp"
-            android:layout_height="117dp"
-            android:gravity="center_horizontal"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp">
-
-            <Button
-                android:id="@+id/btnvertebrates"
-                android:layout_width="304dp"
-                android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                android:drawableTop="@drawable/button2"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/btninvertebrate"
-                android:layout_width="157dp"
-                android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                android:drawableTop="@drawable/button3"
-                android:textStyle="bold" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/tablerowketiga"
-            android:layout_width="150dp"
-            android:layout_height="117dp"
-            android:gravity="center_horizontal"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp">
-
-            <Button
-                android:id="@+id/btnsetting"
-                android:layout_width="197dp"
-                android:layout_height="match_parent"
-                android:background="@android:color/transparent"
-                android:drawableTop="@drawable/setting" />
-
-            <Button
-                android:id="@+id/btninformation"
-                android:layout_width="259dp"
-                android:layout_height="114dp"
-                android:background="@android:color/transparent"
-                android:drawableTop="@drawable/information" />
-
-        </TableRow>
-    </TableLayout>
 
     <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="295dp"
-        android:layout_height="102dp"
-        android:layout_alignEnd="@+id/tableLayout1"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="82dp"
-        android:layout_marginEnd="28dp"
-        android:gravity="center_horizontal"
+        android:layout_width="343dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
         android:src="@drawable/maintitle" />
 
-    <Button
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_whatisanimals"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:src="@drawable/button1" />
+
+            <ImageView
+                android:id="@+id/btn_exercise"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:src="@drawable/exercise_btn" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_information"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:src="@drawable/information" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+                <Button-->
+        <!--                android:layout_width="150dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:text="Lanjut" />-->
+
+
+
+
+        <!--<TableLayout
+             android:id="@+id/tableLayout1"
+             android:layout_width="383dp"
+             android:layout_height="403dp"
+             android:layout_marginTop="180dp"
+             android:paddingTop="1dp"
+             android:shrinkColumns="*"
+             android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/tablerowpertama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingBottom="1dp">
+
+                <Button
+                    android:id="@+id/btn_whatisanimals"
+                    android:layout_width="294dp"
+                    android:layout_height="129dp"
+                    android:layout_below="@+id/imageView1"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/button1"
+                    android:gravity="center|center_horizontal"
+                    android:onClick="playSound" />
+
+                <Button
+                    android:id="@+id/btn_exercise"
+                    android:layout_width="250dp"
+                    android:layout_height="127dp"
+                    android:layout_below="@+id/imageView1"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/button1"
+                    android:gravity="center|center_horizontal"
+                    android:onClick="playSound" />
+            </TableRow>
+
+
+                 <TableRow
+                     android:id="@+id/tablerowkedua"
+                     android:layout_width="150dp"
+                     android:layout_height="117dp"
+                     android:gravity="center_horizontal"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="5dp">
+
+                     <Button
+                         android:id="@+id/btnsetting"
+                         android:layout_width="197dp"
+                         android:layout_height="match_parent"
+                         android:background="@android:color/transparent"
+                         android:drawableTop="@drawable/setting" />
+
+                     <Button
+                         android:id="@+id/btninformation"
+                         android:layout_width="259dp"
+                         android:layout_height="114dp"
+                         android:background="@android:color/transparent"
+                         android:drawableTop="@drawable/information" />
+
+                 </TableRow>
+         </TableLayout>-->
+
+        <!--android:layout_alignEnd="@+id/tableLayout1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+         />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:text="Kembali" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"
+            android:src="@drawable/maintitle" />
+
+        <Button
         android:id="@+id/btnsetting2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:drawableTop="@drawable/sound" />
+        android:drawableTop="@drawable/sound" />-->
 
-</RelativeLayout>
+
+
+

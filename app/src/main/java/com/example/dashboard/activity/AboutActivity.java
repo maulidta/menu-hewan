@@ -1,12 +1,10 @@
-package com.example.dashboard;
+package com.example.dashboard.activity;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
+import com.example.dashboard.R;
 
 public class AboutActivity extends AppCompatActivity {
     @Override

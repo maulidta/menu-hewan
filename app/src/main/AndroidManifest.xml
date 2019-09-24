@@ -8,16 +8,24 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".VertebrateActivity"></activity>
-        <activity android:name=".menusatu" />
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".fragments.FiveFragment"></activity>
+        <activity android:name=".fragments.FourFragment" />
+        <activity android:name=".fragments.ThreeFragment" />
+        <activity android:name=".fragments.TwoFragment" />
+        <activity android:name=".activity.ScrollableTabsActivity" />
+        <activity android:name=".menudua" />
+        <activity android:name=".VertebrateActivity" />
         <activity
-            android:name=".AboutActivity"
+            android:name=".activity.menusatu"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.AboutActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".WhatisAnimal"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
